@@ -1,0 +1,424 @@
+/* All Of Website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+i {
+    color: #fff;
+}
+/*/// All Of Website ///*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Header Section */
+    header {
+        width: 100vw;
+        /* position: fixed; */
+        left: 0;
+        top: 0;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav ul {
+        width: 98%;
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header nav ul li a .menu-icon {
+        width: 6vw;
+    }
+
+    header nav  ul li a .logo {
+        width: 25vw;
+    }
+
+    header nav ul li .cont-search {
+        width: 38vw;
+        position: relative;
+    }
+
+    header nav ul li .cont-search input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
+    header nav ul li .cont-search i {
+        background-color: #F15025;
+    }
+
+    header nav ul li .cont-search .search {
+        padding: 7.2px;
+        border: 1px solid #000;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    header nav ul li .login {
+        font-size: 0.6em;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #F15025;
+    }
+
+    header nav ul li span {
+        font-size: 1rem;
+        color: #000;
+    }
+    /*/// Header Section ///*/
+
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* Main Section */
+    main {
+        width: 100vw;
+    }
+
+    /* Main Header */
+    main .main-header  {
+        background-color: #114388;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .main-header .container {
+        height: 80%;
+        width: 90%;
+    }
+
+    /* Title Main */
+    main .main-header .container .titleMain {
+        height: 40%;
+        text-align: center;
+    }
+
+    main .main-header .container .titleMain h2 a {
+        font-weight: 700;
+        font-size: 1.125rem;
+    }
+
+    main .main-header .container .titleMain h2 a span  {
+        color: #FBD657;
+    }
+    /*-- Title Main --*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* Statistics Main */
+    main .main-header .container .statistics {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .main-header .container .statistics .cont-statistics {
+        border: white;
+        height: 100%;
+        width: 33%;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics div {
+        width: 3.5vw;
+        height: 3.5vw;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-right: 3px;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics .num-original {
+        background-color: #2EC5B6;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics .num-ratings {
+        background-color: #F15025;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics .num-home {
+        background-color: #E7AB46;
+    }
+
+    main .main-header .container .statistics .cont-statistics .num-statistics h1 {
+        font-family: CopperPot, Helvetica, sans-serif;
+        font-size: 1.375rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    main .main-header .container .statistics .cont-statistics .title-statistics h3 {
+        text-align: center;
+    }
+
+    main .main-header .container .statistics .cont-statistics .title-statistics h3 {
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 500;
+    }
+    /*-- Statistics Main --*/
+    /*=== Main Header ===*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /* Food Meal */
+    .foodMeal {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foodMeal .cont-fooeMeal {
+        width: 95vw;
+        height: 80vh;
+        background-color: yellow;
+    }
+
+    /* Img Section */
+    .foodMeal .cont-fooeMeal .imgSection {
+        width: 100%;
+    }
+    /*--- Img Section ---*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /* Recipe Meals */
+    .foodMeal .cont-fooeMeal .recipe {
+        width: 100%;
+        height: 67vh;
+        background-color: #fff;
+    }
+
+    .foodMeal .cont-fooeMeal .recipe h4, 
+    .foodMeal .cont-fooeMeal .recipe h1, 
+    .foodMeal .cont-fooeMeal .recipe p {
+        margin-bottom: 4vh;
+    }
+    .foodMeal .cont-fooeMeal .recipe h4 {
+        font-size: 0.65rem;
+        font-weight: bold;
+        color: rgb(107, 107, 107);
+    }
+
+    .foodMeal .cont-fooeMeal .recipe h1 {
+        font-size: 1.4rem;
+    }
+
+    .foodMeal .cont-fooeMeal .recipe p {
+        font-size: 0.8rem;
+    }
+    /*--- Recipe Meals ---*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /* Food News */
+    .foodMeal .cont-fooeMeal .foodNews {
+        width: 100%;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews {
+        width: 100%;
+        height: 85%;
+        background-color: rgb(250, 239, 239);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .title {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .title h2 {
+        font-size: 1.3rem;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .meal {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .meal img {
+        width: 20vw;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .meal .cont-titlemeal {
+        display: flex;
+        align-items: start;
+        height: 25vh;
+        width: 76%;
+    }
+
+    .foodMeal .cont-fooeMeal .foodNews .cont-foddnews .meal .cont-titlemeal h3 {
+        font-size: 1rem;
+     }
+    /*--- Food News ---*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /* Trending Now */
+    .foodMeal .cont-fooeMeal .trendingNow {
+        width: 100%;
+        height: 300vh;
+    }
+
+    .foodMeal .cont-fooeMeal .cont-trendingNow {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .titleTrending {
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .titleTrending h2 {
+        font-size: 1.5rem;
+        border-bottom: 5px solid orange;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal {
+        width: 100%;
+        height: 95vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal .cont-trendingMeal {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        height: 80%;
+        width: 100%;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal .imgMeal img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal .titlesimgMeal {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal .titlesimgMeal h3 {
+        font-size: 0.5rem;
+        color: grey;
+        margin: 10px;
+    }
+
+    .foodMeal .cont-fooeMeal .trendingNow .cont-trendingNow .rowTrend .trendingMeal .titlesimgMeal h2 {
+        font-size: 1rem;
+    }
+    /*--- Trending Now ---*/
+
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /* Profiles */
+    .profiles {
+        height: 200vh;
+        width: 100vw;
+        border: 10px solid orange;
+    }
+
+
+    .profiles .profile-person {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(71, 71, 0);
+    }
+
+    .profiles .profile-person h2, .profile-person p {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .profiles .profile-person img {
+        margin-top: 20vh;
+        width: 45vw;
+    }
+    /*--- Profiles ---*/
+
+    /*=== Food Meal ===*/
+
+    /*/// Main Section ///*/
+
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* Footer Section */
+
+
+    /*/// Footer Section ///*/
+}
+/* Extra small devices (phones, 600px and down) */
